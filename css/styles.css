@@ -24,6 +24,9 @@ body {
   margin: 0 auto;
 }
 /*-------------HEADER--------------*/
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .header-logo {
   margin-right: 93px;
 }
@@ -175,6 +178,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 .qualities-after-title {
   font-size: 14px;
@@ -406,9 +410,6 @@ body {
 }
 
 /* -----------------PORTFOLIO---------- */
-.header-portfoloio {
-  border-bottom: 1px solid #ececec;
-}
 .portfolio-container {
   padding-bottom: var(--section-padding);
 }
